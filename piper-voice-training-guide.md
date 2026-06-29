@@ -2,7 +2,7 @@
 
 > **Train a custom text-to-speech voice on any Linux computer, including low-end hardware and CPU-only systems.**
 >
-> This guide exists because the official Piper training pipeline is **broken and archived** (October 2025). Every fix here was discovered through real troubleshooting on a machine with **no GPU, no NVIDIA graphics, and a standard Fedora Linux installation.**
+> This guide exists because the official Piper training pipeline is **broken and archived** (October 2025). Every fix here was discovered through real troubleshooting on a machine with **no usable GPU, no NVIDIA graphics, and a standard Fedora Linux installation.**
 >
 > **Accessible design note:** Written for screen-reader users. All code blocks use plain text (no images). All pitfalls are called out explicitly. Steps are numbered and self-contained. Use screen-reader "jump to heading" navigation to move between sections.
 
