@@ -59,9 +59,9 @@
 ## Who This Guide Is For
 
 - **You** have a Linux computer (any distro — Fedora, Ubuntu, Arch, etc.).
-- **You** do NOT have an NVIDIA GPU. That is fine. This guide was written on a machine with no GPU at all.
+- **You** do NOT have an NVIDIA GPU, or you do NOT want to use the GPU because it's too old. That is fine. This guide was written on a machine that couldn't use the old NVIDIA GPU.
 - **You** want to train a custom TTS voice: your own voice, a loved one's voice, a character, or any voice you have recordings of.
-- **You** want to use that voice on iPhone with VoiceOver, on a screen reader, or any system that supports Piper ONNX voices.
+- **You** want to use that voice on iPhone with VoiceOver, on a screen reader like Voiceover or NVDA, or any system that supports Piper ONNX voices.
 - **You** may be using a screen reader yourself. This guide is designed to be fully navigable and understandable without visuals.
 
 If you have an NVIDIA GPU with 8GB+ VRAM, some steps will be faster but the process is the same.
@@ -75,10 +75,11 @@ By the end of this guide, you will have:
 1. **An ONNX model file** — the trained voice, compact enough to share or use anywhere (~63 MB).
 2. **A JSON config file** — goes alongside the ONNX. Both files needed to use the voice.
 3. **Sample WAV files** — so you can hear what your trained voice sounds like.
-4. **(Optional) A HuggingFace repository** — where your voice is stored online for easy downloading.
+4. **(Optional) A HuggingFace repository** — where your voice is stored online for easy downloading. (NOTE: not working consistently but not a huge deal)
 
 Your final voice can be used with:
 - VoiceOver on iOS/macOS
+- NVDA on Windows
 - eSpeak-NG or any Piper-compatible engine
 - Rhasspy / Home Assistant / any open-source TTS system
 - The `piper` command-line tool
